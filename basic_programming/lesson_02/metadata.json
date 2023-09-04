@@ -1,0 +1,11 @@
+{
+  "topic": "IDE IntelliJ IDEA, Data types",
+  "date": "2023-09-06",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/Main.java"
+  ],
+  "video": ""
+}
