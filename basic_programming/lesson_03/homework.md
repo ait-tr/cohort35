@@ -25,8 +25,6 @@ int x = 3
 
 
 **Дополнительное чтение:**
-Математические операции над числами:
-https://javarush.com/groups/posts/1924-operacii-nad-chislami-v-java
 
 Приведение типов:
 https://vertex-academy.com/tutorials/ru/prividenie-tipov-v-java/
