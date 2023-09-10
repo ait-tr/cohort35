@@ -1,0 +1,11 @@
+{
+  "topic": "Type boolean, logical operations",
+  "date": "2023-09-12",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/Main06.java"
+  ],
+  "video": ""
+}
