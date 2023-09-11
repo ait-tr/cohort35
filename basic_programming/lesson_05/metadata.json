@@ -5,7 +5,13 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/src/Main05.java"
+    "code/src/TypeChatExample.java",
+    "code/src/StringExample.java",
+    "code/src/HW_Task1.java",
+    "code/src/HW_Task2.java",
+    "code/src/HW_Task3.java",
+    "code/src/HW_Task3.java",
+    "code/src/HW_Task5_PlusIncrement.java"
   ],
   "video": ""
 }
