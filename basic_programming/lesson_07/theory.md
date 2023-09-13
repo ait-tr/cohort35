@@ -79,3 +79,5 @@ condition ? expression1 : expression2
 ```
 System.out.println((x == 10) ? "x = 10" : "x != 10");jljjhjlljpjljlkkjklj8klikkkyulou0.
 ```
+
+![Stack&Heap](https://raw.githubusercontent.com/ait-tr/cohort35/main/basic_programming/lesson_07/img/Stack_Heap.jpeg)
