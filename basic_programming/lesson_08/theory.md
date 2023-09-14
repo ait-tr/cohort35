@@ -1,4 +1,4 @@
-Оператор выбора **switch** позволяет сравнивать переменную как с одним, так и с несколькими значениями. Общая форма написания выглядит следующим образом:
+HW07_Task_00Оператор выбора **switch** позволяет сравнивать переменную как с одним, так и с несколькими значениями. Общая форма написания выглядит следующим образом:
 
 
 
@@ -51,3 +51,6 @@ The type of `ExpressionToSelect` for the switch statement in Java must be one of
 - Their wrappers: `Byte`, `Short`, `Character`, `Integer`.
 - `String` (starting from Java 7).
 - Enum.
+
+
+![Stack&Heap](https://raw.githubusercontent.com/ait-tr/cohort35/main/basic_programming/lesson_08/img/switch.jpeg)
