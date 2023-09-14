@@ -1,0 +1,11 @@
+{
+  "topic": "Switch case",
+  "date": "2023-09-14",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/Main07.java"
+  ],
+  "video": ""
+}
