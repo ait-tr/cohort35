@@ -1,0 +1,17 @@
+{
+  "topic": "Type char, class String",
+  "date": "2023-09-10",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/TypeChatExample.java",
+    "code/src/StringExample.java",
+    "code/src/HW_Task1.java",
+    "code/src/HW_Task2.java",
+    "code/src/HW_Task3.java",
+    "code/src/HW_Task4.java",
+    "code/src/HW_Task5_PlusIncrement.java"
+  ],
+  "video": ""
+}

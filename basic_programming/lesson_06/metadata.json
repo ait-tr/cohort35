@@ -1,0 +1,15 @@
+{
+  "topic": "Type boolean, logical operations",
+  "date": "2023-09-12",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/BooleanExample.java",
+    "code/src/Overloading.java",
+    "code/src/HW05_Task_01.java",
+    "code/src/HW05_Task_02.java",
+    "code/src/HW05_Task_03.java"
+  ],
+  "video": ""
+}

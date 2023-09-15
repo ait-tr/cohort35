@@ -1,0 +1,15 @@
+{
+  "topic": "Switch case",
+  "date": "2023-09-14",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/SwitchExample.java",
+    "code/src/HW07_Task_00.java",
+    "code/src/HW07_Task_01.java",
+    "code/src/HW07_Task_02.java"
+
+  ],
+  "video": ""
+}

@@ -59,7 +59,7 @@ The world of web development — when speaking solely about programmers (excludi
 
 
 
-![Programming Language Rankings 2023 / Рейтинг языков программирования 2023](img/raiting2023.png)
+![Programming Language Rankings 2023 / Рейтинг языков программирования 2023](https://raw.githubusercontent.com/ait-tr/cohort35/main/basic_programming/lesson_01/img/raiting2023.png)
 
 
 
