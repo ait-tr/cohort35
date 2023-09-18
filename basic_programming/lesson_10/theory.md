@@ -56,3 +56,6 @@ do {
     ...
 } while (condition)
 ```
+
+![While scheme](https://raw.githubusercontent.com/ait-tr/cohort35/main/basic_programming/lesson_10/img/while.jpeg)
+![Do-While scheme](https://raw.githubusercontent.com/ait-tr/cohort35/main/basic_programming/lesson_10/img/DoWhile.jpeg)

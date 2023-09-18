@@ -5,7 +5,10 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/src/Main10.java"
+    "code/src/WhileLoop.java",
+    "code/src/HW08_Task_01.java",
+    "code/src/HW08_Task_02.java",
+    "code/src/HW08_Task_03.java"
   ],
   "video": ""
 }
