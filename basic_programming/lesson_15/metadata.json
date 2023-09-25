@@ -5,7 +5,11 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/src/Main15.java"
+    "code/src/MethodsExample2.java",
+    "code/src/HW13_Task_00.java",
+    "code/src/HW13_Task_01.java",
+    "code/src/HW13_Task_02.java",
+    "code/src/HW13_Task_03.java"
 
   ],
   "video": ""
