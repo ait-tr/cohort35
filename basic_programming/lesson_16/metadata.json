@@ -5,8 +5,9 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/src/Main14.java",
-    "code/src/HW13.java"
+    "code/src/Lesson16.java",
+    "code/src/HW15_Task_03.java",
+    "code/src/HW15_Task_primeArrays.java"
   ],
   "video": ""
 }
