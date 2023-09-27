@@ -1,0 +1,11 @@
+{
+  "topic": "OOP",
+  "date": "2023-09-27",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/Main17.java"
+  ],
+  "video": ""
+}
