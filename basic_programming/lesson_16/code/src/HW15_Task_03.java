@@ -1,4 +1,3 @@
-package homework_15;
 /*
 @date 26.09.2023
 @author Sergey Bugaienko
@@ -12,7 +11,7 @@ Task 3
 Написать метод, принимающий на вход массив строк.
 Метод должен вернуть массив, состоящий из самой короткой и самой длинной строки изначального массива.
  */
-public class Task_03 {
+public class HW15_Task_03 {
     public static void main(String[] args) {
 //        String[] strings = null;
 //        String[] strings = {null, null, "Str"};

@@ -6,7 +6,7 @@
 public class MainDog {
     public static void main(String[] args) {
 
-        Dog dog = new Dog("Bim", 5);
+        Dog20 dog = new Dog20("Bim", 5);
         System.out.println(dog.whoAmI());
 
         dog.run();

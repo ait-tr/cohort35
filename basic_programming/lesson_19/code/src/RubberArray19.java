@@ -6,16 +6,16 @@
 import java.util.Arrays;
 import java.util.Random;
 
-public class RubberArray {
+public class RubberArray19 {
     int[] array; // можно инициализировать поле при его объявлении = new int[10];
     int cursor;
     Random random = new Random();
 
-    public RubberArray() {
+    public RubberArray19() {
         array = new int[10];
     }
 
-    public RubberArray(int sizeDefault) {
+    public RubberArray19(int sizeDefault) {
         array = new int[sizeDefault];
     }
 

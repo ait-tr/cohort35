@@ -10,7 +10,7 @@ public class Main18 {
     public static void main(String[] args) {
         Random random = new Random();
 
-        RubberArray ra = new RubberArray();
+        RubberArray20 ra = new RubberArray20();
 
         System.out.println("Сейчас в массиве: " + ra.length() + " элементов");
 

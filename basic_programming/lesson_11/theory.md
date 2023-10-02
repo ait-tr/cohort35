@@ -3,7 +3,7 @@
 Его можно представить, как набор пронумерованных ячеек, в каждую из которых можно поместить какие-то данные (один элемент данных в одну ячейку). Доступ к конкретной ячейке осуществляется через её номер. 
 Номер элемента в массиве также называют **индексом**.
 
-В случае с Java массив однороден, то есть во всех его ячейках будут храниться элементы одного типа. Так, массив целых чисел содержит только целые числа (например, типа int), массив строк — только строки, массив из элементов созданного нами класса Dog будет содержать только объекты Dog.
+В случае с Java массив однороден, то есть во всех его ячейках будут храниться элементы одного типа. Так, массив целых чисел содержит только целые числа (например, типа int), массив строк — только строки, массив из элементов созданного нами класса Dog20 будет содержать только объекты Dog20.
 То есть в Java мы не можем поместить в первую ячейку массива целое число, во вторую String, а в третью — “собаку”.
 
 
@@ -11,7 +11,7 @@
 An **array** is a data structure that holds elements of the **same** type.
 You can envision it as a collection of numbered cells, each capable of holding some data (one data element in one cell). Access to a specific cell is achieved using its number, also known as an **index**.
 
-In the context of Java, arrays are homogeneous, meaning all cells store elements of the same type. For instance, an array of integers contains only integers (e.g., of type int), an array of strings contains only strings, and an array of objects of a custom class like Dog contains only Dog objects.
+In the context of Java, arrays are homogeneous, meaning all cells store elements of the same type. For instance, an array of integers contains only integers (e.g., of type int), an array of strings contains only strings, and an array of objects of a custom class like Dog20 contains only Dog20 objects.
 In Java, we cannot place an integer in the first cell of an array, a string in the second, and a "dog" in the third cell.
 
 

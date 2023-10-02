@@ -1,4 +1,3 @@
-package homework_15;
 /*
 @date 26.09.2023
 @author Sergey Bugaienko
@@ -26,7 +25,7 @@ Task 4 опционально
 Написать метод, принимающий на вход массив целых чисел.
 Метод должен вернуть массив, состоящий только из простых чисел, присутствующих в изначальном массиве
  */
-public class Task_primeArrays {
+public class HW15_Task_primeArrays {
 
     public static void main(String[] args) {
 

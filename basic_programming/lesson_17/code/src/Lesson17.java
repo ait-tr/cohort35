@@ -7,7 +7,7 @@ public class Lesson17 {
 
     public static void main(String[] args) {
 
-        Cat cat = new Cat(); // создаем объект класса Cat
+        Cat20 cat = new Cat20(); // создаем объект класса Cat
 
         cat.sayMeow(); // вызываем метод sayMeow у объекта
         cat.run();
@@ -24,7 +24,7 @@ public class Lesson17 {
         // Был создан новый объект класса
         // Имя (строка) которая была передана в конструктор
         // было присвоено полю name
-        Cat cat1 = new Cat("Max");
+        Cat20 cat1 = new Cat20("Max");
         System.out.println("Имя cat1 " + cat1.name);
         System.out.println("Возраст " +cat1.age);
         System.out.println("Цвет: " + cat1.color);
@@ -32,7 +32,7 @@ public class Lesson17 {
         cat1.sleep();
         System.out.println("==============");
 
-        Cat cat2 = new Cat("Boris", "red");
+        Cat20 cat2 = new Cat20("Boris", "red");
         System.out.println("Имя cat2 " + cat2.name);
         System.out.println("Возраст " +cat2.age);
         System.out.println("Цвет: " + cat2.color);
@@ -41,7 +41,7 @@ public class Lesson17 {
         cat2.whoAmI();
         System.out.println("=================");
 
-        Cat cat3 = new Cat("Barsik", "white", 4);
+        Cat20 cat3 = new Cat20("Barsik", "white", 4);
         System.out.println("Имя cat2 " + cat3.name);
         System.out.println("Возраст " + cat3.age);
         System.out.println("Цвет: " + cat3.color);

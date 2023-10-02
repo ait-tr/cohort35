@@ -5,7 +5,12 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/src/Main20.java"
+    "code/src/Cat20.java",
+    "code/src/Main20.java",
+    "code/src/Dog20.java",
+    "code/src/MainDog.java",
+    "code/src/RubberArray20.java",
+    "code/src/MainRubber.java"
 
   ],
   "video": ""
