@@ -105,9 +105,124 @@ public static void main(String[] args) {
 
 
 
+# Encapsulation in Java
+
+Today we will talk about encapsulation in Java.
+Let's start with some examples :)
+
+Imagine you have a coffee machine in front of you.
+
+And I have a couple of questions. How does it work? What is the required water temperature for making coffee? How much water, milk? How does milk froth get into our cup instead of just milk? How is coffee brewed directly from whole beans that we put in? How much coffee is needed for one serving?
+
+Most likely, you don't have answers to these questions. Well, perhaps not everyone uses such machines. Let me try to provide another example. Something you definitely use many times every day.
+For example, Google.
+
+Explain how the Google search engine works. How does it search for information based on the words you entered? Why are these results at the top, and not others?
+
+Even though you use Google every day, you probably don't know this. But that's not important. After all, **we don't need to know**.
+
+You can enter queries in the search engine without thinking about how it works. You can have a cup of coffee without knowing how the coffee machine is designed. You can drive a car without delving into the workings of the engine, without knowing physics and mechanics.
+
+All of this is possible thanks to one of the principles of object-oriented programming - **encapsulation**.
+
+In programming, there are two common concepts - **encapsulation** and **abstraction**. The term "encapsulation" is used to refer to both (that's how it turned out). Let's discuss both concepts.
+
+The original meaning of the word **"encapsulation"** in programming is the combination of data and methods for working with this data in one package or "capsule".
+
+In Java, the role of the capsule is played by a **class**. A class contains both data (class fields) and methods for working with this data.
+
+In OOP, programs consist of capsule classes, which are both data and methods for working with them. And our flexible array, which we wrote in the previous lesson, is a typical example of a capsule class.
+
+Now let's talk about **abstraction**.
+
+How is it possible that we use various complex mechanisms without understanding how they are built and what their work is based on? It's simple: their creators provided a simple and convenient interface.
+On the coffee machine, the interface is the buttons on the panel. By pressing one button, you get espresso. By pressing the second, you choose cappuccino. The third is responsible for a larger portion. And that's all we need to do.
+
+It doesn't matter how the coffee machine is designed inside. The main thing is that **to get a portion of coffee, the user needs to press a button**.
+
+This is the essence of abstraction. All the "insides" of the program are hidden from the user. This information is superfluous and unnecessary for them. The user needs the end result, not the internal process.
+
+Let's write a class `Auto` for example:
+
+```
+// Here will be the code of the Auto class
+```
+
+This is what encapsulation of implementation looks like in a Java program. It's just like in real life: the user is provided with an interface (methods). If the user needs the car in the program to perform an action, it is enough to call the necessary method. And what happens inside these methods is extraneous information; the main thing is that everything works as it should.
+
+Here we talked about encapsulation of implementation. Besides it, in Java there is also data hiding.
+
+Let's practice with cats. We'll write a class `Cat2`:
 
 
+```
+public class Cat2 {
+   
+   public String name;
+   public int age;
+   public int weight;
 
+
+   public Cat2(String name, int age, int weight) {
+       this.name = name;
+       this.age = age;
+       this.weight = weight;
+   }
+
+   public Cat2() {
+   }
+
+   public void sayMeow() {
+       System.out.println("Мяу!");
+   }
+}
+```
+
+The problem with the class is that its data (fields) are open to everyone, and another programmer can easily create a cat in the program without a name, with a weight of 0, and an age of -1000 years.
+
+```
+public static void main(String[] args) {
+  
+   Cat2 cat = new Cat2();
+
+   cat.name = "";
+   cat.age = -1000;
+   cat.weight = 0;
+}
+```
+
+## Data Hiding in Java
+
+In Java, data hiding is achieved through the following mechanisms:
+
+- Access modifiers (private, protected, package default).
+- Getters and setters.
+
+### Access Modifiers in Java
+
+In Java, the following access modifiers are used:
+
+- **public**: This modifier makes a class or class member public and accessible to all classes, both in the current package and in external packages. Fields and methods declared with the public modifier are visible to all classes.
+
+- **private**: This modifier signifies a closed class or class member, opposite to the public modifier. A private class or class member is accessible only from within the same class's code.
+
+- **protected**: This modifier makes a class or class member accessible from anywhere in the current class or package, as well as in derived classes, even if they are located in different packages.
+
+- **package default**: This is the default modifier. If no modifier is applied to a class field or method, it implies the use of the package default modifier. Fields or methods with the package default modifier are visible to all classes within the current package.
+
+### Encapsulation and Data Hiding
+
+Authors of various articles on encapsulation may refer to either encapsulation (the combination of data and methods) or data hiding, or **both**. In Java, both mechanisms are present (unlike in some other object-oriented programming languages), so the latter approach is the most appropriate.
+
+### Advantages of Encapsulation
+
+Utilizing encapsulation provides us with several important advantages:
+
+- **Control over Object State**: Encapsulation allows us to maintain control over the proper state of an object. For example, we can prevent instances of a class, such as cats, from having a weight of 0.
+
+- **User Convenience Through Interface**: By exposing only methods to the user, we leave the "inside" hidden. Users simply need to call these methods to obtain results without delving into the details of their operation.
+
+- **Code Changes Don't Affect Users**: Any changes we make to the internal workings of methods remain unnoticed by users, ensuring backward compatibility. Users can continue using the same method calls as before.
 
 
 
