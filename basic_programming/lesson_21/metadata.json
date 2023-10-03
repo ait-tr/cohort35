@@ -1,0 +1,11 @@
+{
+  "topic": "Static, final",
+  "date": "2023-10-04",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/Main21.java"
+  ],
+  "video": ""
+}
