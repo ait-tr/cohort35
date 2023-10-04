@@ -5,7 +5,15 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/src/Main21.java"
+    "code/src/Car.java",
+    "code/src/Test.java",
+    "code/src/MathUtil.java",
+    "code/src/Main21.java",
+    "code/src/StaticBlockDemo.java",
+    "code/src/FinalDemo.java",
+    "code/src/BankAccount.java",
+    "code/src/BankApp.java",
+    "code/src/HW20_Task01.java"
   ],
   "video": ""
 }
