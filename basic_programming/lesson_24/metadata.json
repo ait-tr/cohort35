@@ -1,0 +1,11 @@
+{
+  "topic": "Inheritance",
+  "date": "2023-10-09",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/Main24.java"
+      ],
+  "video": ""
+}
