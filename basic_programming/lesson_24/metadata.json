@@ -5,7 +5,15 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/src/Main24.java"
+    "code/src/Vehicle.java",
+    "code/src/Bus.java",
+    "code/src/Train.java",
+    "code/src/InternationalBus.java",
+    "code/src/Main24.java",
+    "code/src/persons/Person.java",
+    "code/src/persons/Passenger.java",
+    "code/src/persons/BusDriver.java",
+    "code/src/persons/MainPersons.java"
       ],
   "video": ""
 }
