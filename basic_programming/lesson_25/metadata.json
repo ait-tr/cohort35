@@ -5,8 +5,14 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/src/Main25.java"
-
+    "code/src/aggregation/Passenger.java",
+    "code/src/aggregation/BusDriver.java",
+    "code/src/aggregation/Bus.java",
+    "code/src/aggregation/MainBus.java",
+    "code/src/aggregation/AutoPilot.java",
+    "code/src/homework24/InternationalBus.java",
+    "code/src/homework24/Bus.java",
+    "code/src/homework24/Vehicle.java"
   ],
   "video": ""
 }
