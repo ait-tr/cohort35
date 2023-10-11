@@ -1,0 +1,11 @@
+{
+  "topic": "Polymorphism",
+  "date": "2023-10-11",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/animals/Main26.java"
+  ],
+  "video": ""
+}
