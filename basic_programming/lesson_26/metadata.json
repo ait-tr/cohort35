@@ -5,7 +5,16 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/src/animals/Main26.java"
+    "code/src/animals/Animal.java",
+    "code/src/animals/Cat.java",
+    "code/src/animals/Dog.java",
+    "code/src/animals/Hamster.java",
+    "code/src/animals/SuperDog.java",
+    "code/src/animals/Bird.java",
+    "code/src/animals/MainAnimal.java",
+    "code/src/animals/MainObject.java",
+    "code/src/animals/MainEquals.java",
+    "code/src/bus/Bus.java"
   ],
   "video": ""
 }
