@@ -5,8 +5,32 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/src/Main25.java"
-
+    "code/src/abstracts/Animal.java",
+    "code/src/abstracts/Cat.java",
+    "code/src/abstracts/Dog.java",
+    "code/src/abstracts/SuperDog.java",
+    "code/src/abstracts/Main27.java",
+    "code/src/paper/Pen.java",
+    "code/src/paper/Paper.java",
+    "code/src/paper/Brush.java",
+    "code/src/paper/Pencil.java",
+    "code/src/paper/Marker.java",
+    "code/src/paper/Eraser.java",
+    "code/src/paper/ColorPencil.java",
+    "code/src/paper/MainPaper.java",
+    "code/src/runners/Runner.java",
+    "code/src/runners/Human.java",
+    "code/src/runners/AmateurRunner.java",
+    "code/src/runners/ProRunner.java",
+    "code/src/runners/MainRunners.java",
+    "code/src/transport/Vehicle.java",
+    "code/src/transport/VehicleWithEngine.java",
+    "code/src/transport/Engine.java",
+    "code/src/transport/ElectricEngine.java",
+    "code/src/transport/Car.java",
+    "code/src/transport/Bicycle.java",
+    "code/src/transport/EBicycle.java",
+    "code/src/transport/MainTransport.java"
   ],
   "video": ""
 }
