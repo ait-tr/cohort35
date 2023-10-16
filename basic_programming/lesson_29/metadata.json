@@ -5,8 +5,23 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/src/Main29.java"
-
+    "code/src/interfaces/Printable.java",
+    "code/src/interfaces/Book.java",
+    "code/src/interfaces/Journal.java",
+    "code/src/interfaces/ColorPrintable.java",
+    "code/src/interfaces/Presentation.java",
+    "code/src/interfaces/PrinterApp.java",
+    "code/src/summable/Summable.java",
+    "code/src/summable/Calculator.java",
+    "code/src/summable/CalculatorApp.java",
+    "code/src/flyable/Flyable.java",
+    "code/src/flyable/Swimmable.java",
+    "code/src/flyable/Flyable.java",
+    "code/src/flyable/Transport.java",
+    "code/src/flyable/Airplane.java",
+    "code/src/flyable/Duck.java",
+    "code/src/flyable/Flyer.java"
+    
   ],
   "video": ""
 }
