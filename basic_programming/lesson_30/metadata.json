@@ -5,7 +5,21 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/src/Main30.java"
+    "code/src/generics/SimpleBox.java",
+    "code/src/generics/SimpleApp.java",
+    "code/src/generics/GenericBox.java",
+    "code/src/generics/GenericBoxApp.java",
+    "code/src/generics/Wrappers.java",
+    "code/src/generics/Calculated.java",
+    "code/src/generics/DoubleGenerics.java",
+    "code/src/methods/Printer.java",
+    "code/src/methods/PrinterApp.java",
+    "code/src/rubberArray/RubberArray.java",
+    "code/src/rubberArray/RubberArrayApp.java",
+    "code/src/payments/PaymentSystem.java",
+    "code/src/payments/BankAccount.java",
+    "code/src/payments/ElectronicWallet.java",
+    "code/src/payments/PaymentsApp.java"
 
   ],
   "video": ""
