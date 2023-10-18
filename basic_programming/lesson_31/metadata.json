@@ -5,9 +5,11 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/src/rubberList/RubberList.java"
-
-
+    "code/src/myArrayList/MyList.java",
+    "code/src/myArrayList/MyArrayList.java",
+    "code/src/myArrayList/ArrayListApp.java",
+    "code/src/myLinkedList/MyLinkedList.java",
+    "code/src/myLinkedList/MyLinkedListApp.java"
   ],
   "video": ""
 }
