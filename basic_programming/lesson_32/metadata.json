@@ -7,8 +7,8 @@
   "code": [
     "code/src/arrays/LinksExample.java",
     "code/src/myLinkedList/MyLinkedList.java",
-    "code/src/myArrayList/MyList.java",
-    "code/src/myArrayList/Queue.java",
+    "code/src/myLinkedList/MyList.java",
+    "code/src/myLinkedList/Queue.java",
     "code/src/myLinkedList/MyLinkedListApp.java",
     "code/src/myLinkedList/MainForTestList.java"
 
