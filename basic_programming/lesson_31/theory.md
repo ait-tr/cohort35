@@ -143,8 +143,6 @@ int primitiveInt = wrappedInt;  // автораспаковка
 <details style="margin-top: 16px">
   <summary style="cursor: pointer; color: green;"><b>English</b></summary>
 
-Here's the translation:
-
 ## Wrappers
 
 Wrapper classes in Java are used to represent primitive data types as objects. Primitive data types in Java, such as `int`, `char`, and `double`, are not objects. However, there are times when you need to treat primitives as objects, for instance when adding them to collections or when using methods that expect objects.
