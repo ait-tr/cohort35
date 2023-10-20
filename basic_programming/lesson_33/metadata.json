@@ -1,0 +1,15 @@
+{
+  "topic": "Double linked list, Iterator",
+  "date": "2023-10-19",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/Bus.java",
+    "code/Main.java",
+    "code/Passenger.java",
+    "code/Driver.java"
+
+  ],
+  "video": ""
+}
