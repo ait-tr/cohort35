@@ -1,0 +1,15 @@
+{
+  "topic": "Iterator, Iterable",
+  "date": "2023-10-23",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/myLinkedList/MyLinkedList.java",
+    "code/src/myLinkedList/MyList.java",
+    "code/src/myLinkedList/Queue.java",
+    "code/src/myLinkedList/MyLinkedListApp.java",
+    "code/src/myLinkedList/MainForTestList.java"
+  ],
+  "video": ""
+}
