@@ -1,0 +1,12 @@
+{
+  "topic": "JUnit",
+  "date": "2023-10-24",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/Main35.java"
+
+  ],
+  "video": ""
+}
