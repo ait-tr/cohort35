@@ -8,8 +8,9 @@
     "code/src/myLinkedList/MyLinkedList.java",
     "code/src/myLinkedList/MyList.java",
     "code/src/myLinkedList/Queue.java",
-    "code/src/myLinkedList/MyLinkedListApp.java",
-    "code/src/myLinkedList/MainForTestList.java"
+    "code/src/myLinkedList/LinkedList34Main.java",
+    "code/src/persons/Person.java",
+    "code/src/persons/PersonApp.java"
   ],
   "video": ""
 }
