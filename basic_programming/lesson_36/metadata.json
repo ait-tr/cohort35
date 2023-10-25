@@ -1,0 +1,17 @@
+{
+  "topic": "Comparable, Comparator",
+  "date": "2023-10-25",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/myArrayList/MyArrayList.java",
+    "code/src/myArrayList/MyList.java",
+    "code/src/myArrayList/MyListTestForEach.java",
+    "code/src/persons/Person.java",
+    "code/src/persons/PersonApp.java",
+    "code/src/test/PersonTest.java"
+
+  ],
+  "video": ""
+}
