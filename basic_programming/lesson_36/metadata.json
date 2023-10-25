@@ -5,8 +5,14 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
+    "code/src/cars/Car.java",
+    "code/src/cars/CarsApp.java",
+    "code/src/cars/CarSpeedComparator.java",
+    "code/src/cars/CarYearComparator.java",
     "code/src/persons/Person.java",
-    "code/src/persons/PersonApp.java",
+    "code/src/test/TestPersonSetPassword.java",
+    "code/src/test/TestExample.java",
+    "code/src/test/TestDataProvider.java",
     "code/src/test/PersonTest.java"
   ],
   "video": ""
