@@ -5,7 +5,10 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/src/arraySortComparators/OddEvenComparator.java"
+    "code/src/javaTimeApi/TimeApiExample.java",
+    "code/src/testComparators/TestComparators.java",
+    "code/src/testComparators/Task1Comparator.java",
+    "code/src/testComparators/Task2Comparator.java"
   ],
   "video": ""
 }
