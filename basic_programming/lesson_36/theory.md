@@ -160,7 +160,6 @@ Arrays.sort(persons, ageComparator);
 <details style="margin-top: 16px">
   <summary style="cursor: pointer; color: green;"><b>English</b></summary>
 
-Of course! Here's the translated lecture:
 
 ## Anonymous Classes
 
