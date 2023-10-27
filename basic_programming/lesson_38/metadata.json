@@ -1,0 +1,20 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/layers/models/Order.java",
+    "code/layers/models/Product.java",
+    "code/layers/models/User.java",
+    "code/layers/repositories/UsersRepository.java,",
+    "code/layers/services/UsersService.java,",
+    "code/layers/view/Menu.java,",
+    "code/layers/Main.java,",
+    "code/hometask/RemoteController.java,",
+    "code/hometask/Broadcast.java",
+    "code/hometask/TV.java",
+    "code/hometask/Main.java",
+    "code/hometask/Channel.java"
+  ],
+  "video": ""
+}
