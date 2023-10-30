@@ -12,8 +12,8 @@
     "CarsPredicate/src/view/Menu.java",
     "CarsPredicate/src/LibraryApp.java",
     "CarsPredicate/test/TestGarage.java",
-    "CarsPredicate/lib/MyArrayList.java",
-    "CarsPredicate/lib/MyList.java",
+    "CarsPredicate/src/lib/MyArrayList.java",
+    "CarsPredicate/src/lib/MyList.java",
     "dateArrays/DateUtil.java"
   ],
   "video": ""
