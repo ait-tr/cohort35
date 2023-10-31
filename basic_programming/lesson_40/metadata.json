@@ -5,16 +5,8 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "CarsPredicate/src/interfaces/InterfaceServiceCars.java",
-    "CarsPredicate/src/model/Car.java",
-    "CarsPredicate/src/repository/RepositoryCars.java",
-    "CarsPredicate/src/service/ServiceCars.java",
-    "CarsPredicate/src/view/Menu.java",
-    "CarsPredicate/src/LibraryApp.java",
-    "CarsPredicate/test/TestGarage.java",
-    "CarsPredicate/src/lib/MyArrayList.java",
-    "CarsPredicate/src/lib/MyList.java",
-    "dateArrays/DateUtil.java"
+    "code/src/Main40.java"
+
   ],
   "video": ""
 }
