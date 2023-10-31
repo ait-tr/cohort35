@@ -1,0 +1,20 @@
+{
+  "topic": "Project 1 Day2",
+  "date": "2023-10-30",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "CarsPredicate/src/interfaces/InterfaceServiceCars.java",
+    "CarsPredicate/src/model/Car.java",
+    "CarsPredicate/src/repository/RepositoryCars.java",
+    "CarsPredicate/src/service/ServiceCars.java",
+    "CarsPredicate/src/view/Menu.java",
+    "CarsPredicate/src/LibraryApp.java",
+    "CarsPredicate/test/TestGarage.java",
+    "CarsPredicate/src/lib/MyArrayList.java",
+    "CarsPredicate/src/lib/MyList.java",
+    "dateArrays/DateUtil.java"
+  ],
+  "video": ""
+}
