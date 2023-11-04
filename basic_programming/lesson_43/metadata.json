@@ -1,0 +1,24 @@
+{
+  "topic": "Project 1. Day 3",
+  "date": "2023-11-01",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/enums/Main.java",
+    "code/enums/Size.java",
+    "code/enums/User.java",
+    "code/enums/UserRole.java",
+    "code/functions/convert/Convert.java",
+    "code/functions/convert/EnglishConvertImpl.java",
+    "code/functions/convert/Main.java",
+    "code/functions/convert/Point.java",
+    "code/functions/convert/PointsPrinter.java",
+    "code/functions/convert/RussianConverterImpl.java",
+    "code/functions/predicate/ListFilter.java",
+    "code/functions/predicate/Main.java",
+    "code/functions/predicate/MyArrayList.java"
+
+  ],
+  "video": ""
+}
