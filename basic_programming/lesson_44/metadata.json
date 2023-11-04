@@ -1,0 +1,11 @@
+{
+  "topic": "Разбор и демонстрация проектов. Optional",
+  "date": "2023-11-06",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/project1/src/model/Book.java"
+  ],
+  "video": ""
+}
