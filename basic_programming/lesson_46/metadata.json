@@ -1,0 +1,11 @@
+{
+  "topic": "Множества. Interface Set и его реализации",
+  "date": "2023-11-08",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/Main46.java"
+  ],
+  "video": ""
+}
