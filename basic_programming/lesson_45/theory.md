@@ -26,8 +26,7 @@ Java Collections Framework (JCF) предоставляет несколько �
 
 Таким образом, коллекция в Java - это структура данных, которая позволяет группировать объекты и работать с ними как с единой сущностью.
 
-<img src="https://raw.githubusercontent.com/ait-tr/cohort35/main/basic_programming/lesson_45/img/Collection.jpeg" width="800">
-![img](https://raw.githubusercontent.com/ait-tr/cohort35/main/basic_programming/lesson_45/img/Collection.jpeg)
+<img src="https://raw.githubusercontent.com/ait-tr/cohort35/main/basic_programming/lesson_45/img/Collection.jpeg" width="1200">
 
 
 ### Основные интерфейсы и их реализации в JCF:
@@ -137,6 +136,9 @@ The Java Collections Framework (JCF) offers several types of collections, each w
 Thus, a collection in Java is a data structure that allows grouping objects and working with them as a single entity.
 
 ### Main interfaces and their implementations in JCF:
+
+<img src="https://raw.githubusercontent.com/ait-tr/cohort35/main/basic_programming/lesson_45/img/Collection.jpeg" width="1200">
+
 
 #### Interfaces:
     - `Collection`: the base interface for all collections.
