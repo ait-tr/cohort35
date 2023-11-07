@@ -1,0 +1,11 @@
+{
+  "topic": "Java Collections Framework (JCF)",
+  "date": "2023-11-07",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/model/Main45.java"
+  ],
+  "video": ""
+}
