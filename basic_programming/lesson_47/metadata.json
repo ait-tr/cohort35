@@ -5,7 +5,12 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/src/homework46/RetainAll.java"
+    "code/src/maps/MapsExample.java",
+    "code/src/enumSet/EnumSetExample.java",
+    "code/src/enumSet/Day.java",
+    "code/src/homework46/Task1.java",
+    "code/src/homework46/Task2.java",
+    "code/src/homework46/Task3.java"
   ],
   "video": ""
 }
