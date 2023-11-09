@@ -1,0 +1,11 @@
+{
+  "topic": "Карты. Interface Map и его реализации",
+  "date": "2023-11-08",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/homework46/RetainAll.java"
+  ],
+  "video": ""
+}
