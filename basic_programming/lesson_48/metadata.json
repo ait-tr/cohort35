@@ -1,0 +1,13 @@
+{
+  "topic": "Class Collections",
+  "date": "2023-11-13",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/homework47/Task1.java",
+    "code/src/homework47/Task2.java",
+    "code/src/homework47/Task3.java"
+  ],
+  "video": ""
+}
