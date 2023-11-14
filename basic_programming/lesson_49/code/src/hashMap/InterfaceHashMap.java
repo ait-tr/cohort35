@@ -1,22 +1,22 @@
 package hashMap;
 
-import java.util.Collection;
-import java.util.Set;
-
 public interface InterfaceHashMap<K, V>{
+    // Положить в карту пару ключ-значение. Если ключ уже существует - обновить значение
     V put(K key, V value);
 
-    V get(K key);
-
-    V remove(K key);
-
+    // Взять из карты значение, соответсвующее ключу. Если ключ отсутствует - возвращаем null
+    V get(Object key);
+//
+//    //Удалить пару ключ-значение
+//    V remove(Object key);
+//
     int size();
-
+//
     boolean isEmpty();
-
-    boolean containsKey(K key);
-    void clear();
-    Set<K> keySet();
-    Collection<V> values();
-    V getOrDefault(Object key, V defaultValue);
+//
+//    boolean containsKey(K key);
+//    void clear();
+//    Set<K> keySet();
+//    Collection<V> values();
+//    V getOrDefault(Object key, V defaultValue);
 }

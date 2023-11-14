@@ -5,7 +5,9 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/src/hashMap/InterfaceHashMap.java"
+    "code/src/hashMap/MyHashMap.java",
+    "code/src/hashMap/InterfaceHashMap.java",
+    "code/src/hashMap/HashMapApp.java"
   ],
   "video": ""
 }
