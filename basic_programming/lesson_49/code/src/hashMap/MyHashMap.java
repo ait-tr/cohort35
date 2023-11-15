@@ -52,7 +52,7 @@ public class MyHashMap<K, V> implements InterfaceHashMap<K, V> {
         }
 
 
-        System.out.println("current after while: " + current);
+//        System.out.println("current after while: " + current);
 
         // создаю новую пару ключ значение
         Node<K, V> newNode = new Node<>(key, value);
@@ -111,7 +111,7 @@ public class MyHashMap<K, V> implements InterfaceHashMap<K, V> {
     }
 
     private void resize() {
-        System.out.println("Пересчет карты");
+        System.out.println("\nПересчет карты==============\n");
         // TODO увеличить массив, перераспределить элементы
         /*
         1. Увеличить capacity
@@ -132,23 +132,28 @@ public class MyHashMap<K, V> implements InterfaceHashMap<K, V> {
 
                 int newIndex = getIndex(current.key); // новый индекс
 
-//                Node<K,V> newCurrent = newBuckets[newIndex];
-//
-//                System.out.println(newCurrent);
-//                while (newCurrent != null) {
-//                    if (newCurrent.next == null) break;
-//                    newCurrent = newCurrent.next;
-//                }
-//
-//                if (newCurrent == null) {
-//                    newBuckets[newIndex] = current;
-//                } else {
-//                    newCurrent.next = current;
-//                }
+                // Option 1
+                current.next = null;
 
+                Node<K,V> cursor = newBuckets[newIndex];
+
+                second: while (cursor != null) {
+                    if (cursor.next == null) break second;
+                    cursor = cursor.next;
+                }
+                if (cursor == null) {
+                    newBuckets[newIndex] = current;
+                } else {
+                    cursor.next = current;
+                }
+                // End Option1
+
+
+                // Option2
                 // к текущей новой ноде привешиваю в "next" то, что сейчас уже есть в этой ячейке в новом массиве
-                current.next = newBuckets[newIndex];
-                newBuckets[newIndex] = current;
+//                current.next = newBuckets[newIndex];
+//                newBuckets[newIndex] = current;
+                // End Option2
 
 
 
@@ -185,7 +190,7 @@ public class MyHashMap<K, V> implements InterfaceHashMap<K, V> {
 //        int index = Math.abs(hashCode) % capacity;
         // capacity ДОЛЖНО быть степенью двойки
         int index = key.hashCode() & (capacity - 1);
-        System.out.println("index: " + index);
+//        System.out.println("index: " + index);
         return index;
     }
 
