@@ -5,7 +5,15 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/src/homework48/Task1.java"
+    "code/src/exceptions/ExceptionExample.java",
+    "code/src/persons/EmailValidateException.java",
+    "code/src/persons/EmailValidator.java",
+    "code/src/persons/Person.java",
+    "code/src/persons/PersonApp.java",
+    "code/src/hashMapImp/MyHashMap.java",
+    "code/src/hashMapImp/InterfaceHashMap.java",
+    "code/src/hashMapImp/HashMapApp.java",
+    "code/src/test/TestCollection.java"
   ],
   "video": ""
 }
