@@ -1,0 +1,11 @@
+{
+  "topic": "Exception (Исключения)",
+  "date": "2023-11-14",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/homework48/Task1.java"
+  ],
+  "video": ""
+}
