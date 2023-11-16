@@ -18,6 +18,9 @@ Java IO (Input/Output) - это часть Java Standard Edition API, предо
 
 Потоки байтов и потоки символов в Java IO имеют похожую структуру и работают аналогичным образом, но отличаются тем, что потоки символов автоматически конвертируют бинарные данные в символы и наоборот.
 
+<img src="https://raw.githubusercontent.com/ait-tr/cohort35/main/basic_programming/lesson_51/img/JavaIO.jpeg" width="1200">
+
+
 ### Важные концепции Java IO:
 
 1. InputStream/OutputStream:
