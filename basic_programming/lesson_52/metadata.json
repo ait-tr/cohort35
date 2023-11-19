@@ -1,0 +1,13 @@
+{
+  "topic": "Function, Predicate, Consumer",
+  "date": "2023-11-21",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/Main52.java"
+
+
+  ],
+  "video": ""
+}
