@@ -5,7 +5,12 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/src/Main52.java"
+    "code/src/interfaces/Main52.java",
+    "code/src/interfaces/CombinedInterfaces.java",
+    "code/src/homework51/Task1.java",
+    "code/src/homework51/DataTransfer.java",
+    "code/src/homework51/files/data.txt"
+
 
 
   ],
