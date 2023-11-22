@@ -6,8 +6,14 @@
   "homework": "homework.md",
   "code": [
 
+    "code/src/streamsMethods/DataFilters.java",
+    "code/src/streamsMethods/DataChange.java",
+    "code/src/streamsMethods/StaticMethods.java",
+    "code/src/streamsMethods/Cat.java",
+    "code/src/streamsMethods/Shop.java",
     "code/src/homework53/Task1.java",
-    "code/src/homework53/Task2.java"
+    "code/src/homework53/Task2.java",
+    "code/src/homework53/Person.java"
 
 
   ],
