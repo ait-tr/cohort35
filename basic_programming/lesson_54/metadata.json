@@ -1,0 +1,15 @@
+{
+  "topic": "Stream API. part2",
+  "date": "2023-11-22",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+
+    "code/src/homework53/Task1.java",
+    "code/src/homework53/Task2.java"
+
+
+  ],
+  "video": ""
+}
