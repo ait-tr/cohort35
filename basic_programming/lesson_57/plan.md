@@ -1,4 +1,4 @@
-## Project 2 Intro
+## Project 2. Day 2 
 
 
 
