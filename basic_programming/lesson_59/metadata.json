@@ -1,11 +1,11 @@
 {
-  "topic": "Project 2. Day 2",
-  "date": "2023-11-28",
+  "topic": "Project 2. Day 4",
+  "date": "2023-11-30",
   "plan": "plan.md",
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/src/Main57.java"
+    "code/src/Main59.java"
 
   ],
   "video": ""
