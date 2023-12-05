@@ -34,6 +34,32 @@
 <details style="margin-top: 16px">
   <summary style="cursor: pointer; color: green;"><b>English</b></summary>
 
+### Basics of Regular Expressions in Java
 
+Regular expressions (often abbreviated as "regex" or "regexp") are a special way to search and manipulate text. Imagine having a huge book, and you want to find all mentions of a specific word or phrase. Instead of reading the entire book, you use a special "magical device" that quickly finds everything you need. Regular expressions are like this "magical device" for working with text in programming.
+
+In Java, there are special classes for working with regular expressions, such as `Pattern` and `Matcher`.
+
+1. **Pattern Class**: This is like the rule for searching. You tell it what to look for, for example, "all words starting with 'A'". In Java, it looks like `Pattern pattern = Pattern.compile("A\\w*");`. Here, `"A\\w*"` is the regular expression itself.
+
+2. **Matcher Class**: After you've created a rule (Pattern), you need a way to apply it. The Matcher class takes the text and applies your rule to it. Continuing the example above, it would look like `Matcher matcher = pattern.matcher(text);`.
+
+### Examples of Regular Expressions
+
+- **Finding Digits**: If you need to find all digits in a text, you can use the expression `\d`, which matches any digit.
+
+- **Finding Words**: If you're looking for the word "cat", your regular expression would simply be `"cat"`.
+
+- **Complex Patterns**: More complex patterns can be created, for instance, to find an email address, you need a pattern that accounts for letters, symbols like '@', and dots.
+
+### A Bit About Syntax
+
+- **Metacharacters**: These are special characters that have a special meaning. For example, `.` (dot) matches any character, while `*` means "zero or more of the preceding element".
+
+- **Escaping**: If you need to search for a metacharacter as a regular character (like a dot), it needs to be "escaped" using a backslash, e.g., `\\.`.
+
+- **Groups**: You can group parts of your expression using brackets to treat them as a single unit.
+
+Regular expressions might seem complex, but they are incredibly powerful for working with text. They allow you to quickly search, replace, and manage data in text format. In Java, regular expressions are used through the Pattern and Matcher classes, which provide flexible and powerful tools for this task.
 
 </details>
