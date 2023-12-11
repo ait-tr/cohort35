@@ -1,0 +1,12 @@
+{
+  "topic": "RegEx part 2",
+  "date": "2023-12-11",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/Part2.java"
+
+  ],
+  "video": ""
+}
