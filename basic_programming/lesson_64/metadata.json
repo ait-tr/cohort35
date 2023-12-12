@@ -5,11 +5,11 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-       "code/src/homework63/Tasks.java",
        "code/src/Part7.java",
        "code/src/Part8.java",
        "code/src/Part8_1.java",
-       "code/src/Part9.java"
+       "code/src/Part9.java",
+       "code/src/homework63/Tasks.java"
   ],
   "video": ""
 }
