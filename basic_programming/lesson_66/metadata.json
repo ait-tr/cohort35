@@ -1,0 +1,11 @@
+{
+  "topic": "Multithreading",
+  "date": "2023-12-14",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+       "code/src/homework65/Tasks.java"
+  ],
+  "video": ""
+}
