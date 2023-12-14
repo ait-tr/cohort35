@@ -5,6 +5,13 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
+       "code/src/threads/Test.java",
+       "code/src/threads/Test1.java",
+       "code/src/threads/Task2.java",
+       "code/src/threads/Test3.java",
+       "code/src/threads/Synchro3.java",
+       "code/src/threads/Test4.java",
+       "code/src/regex/TaskFinal.java",
        "code/src/homework65/Tasks.java"
   ],
   "video": ""
