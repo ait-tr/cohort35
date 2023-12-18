@@ -217,5 +217,4 @@ The `ArrayBlockingQueue` class in Java, part of the `java.util.concurrent` packa
 - **Thread Safety**: `ArrayBlockingQueue` is thread-safe, thanks to internal use of locks. This makes it suitable for use in multithreaded applications where multiple threads may add and remove elements simultaneously.
 - **Blocking Operations**: Insertion operations into a full queue and removal operations from an empty queue block the calling thread until space becomes available or an element is present. This provides a convenient solution for "producer-consumer" tasks.
 - **Access Methods**: Provides methods for adding, removing, and inspecting elements, such as `add`, `offer`, `remove`, `poll`, `take`, `put`, `peek`, and `element`. The `put` and `take` methods are blocking if the queue is full or empty, respectively.
-
 </details>
