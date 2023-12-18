@@ -5,6 +5,10 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
+    "code/src/PoolExample.java",
+    "code/src/ProducerConsumerExample.java",
+    "code/src/WaitAndNotify.java",
+    "code/src/ProducerConsumerWaitNotify.java",
     "code/src/homework66/Tasks.java"
   ],
   "video": ""
