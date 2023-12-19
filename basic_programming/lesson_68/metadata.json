@@ -5,7 +5,15 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/src/homework67/Task.java"
+    "code/src/CountDownLatchExample.java",
+    "code/src/CDL_V2.java",
+    "code/src/RentalLockExample.java",
+    "code/src/CAS.java",
+    "code/src/generator/GeneratorAtomic.java",
+    "code/src/generator/TestGenerator.java",
+    "code/src/homework67/PrinterABC.java",
+    "code/src/homework67/PrinterABC_V2.java",
+    "code/src/homework67/Status.java"
   ],
   "video": ""
 }
