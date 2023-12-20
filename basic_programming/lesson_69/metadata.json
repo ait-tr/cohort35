@@ -10,8 +10,7 @@
     "code/src/deadLocks/DeadLockExample.java",
     "code/src/deadLocks/DeadLockExampleRental.java",
     "code/src/interrupt/InterruptExample.java",
-    "code/src/callableFuture/CallableFuture.java",
-    "code/src/semaphore/SemaphoreExample.java"
+    "code/src/callableFuture/CallableFuture.java"
   ],
   "video": ""
 }
