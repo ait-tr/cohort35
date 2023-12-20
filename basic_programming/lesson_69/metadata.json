@@ -1,11 +1,17 @@
 {
-  "topic": "Multithreading",
+  "topic": "Multithreading final",
   "date": "2023-12-20",
   "plan": "plan.md",
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/src/homework68/Task.java"
+    "code/src/semaphore/SemaphoreExample.java",
+    "code/src/semaphore/Parking.java",
+    "code/src/deadLocks/DeadLockExample.java",
+    "code/src/deadLocks/DeadLockExampleRental.java",
+    "code/src/interrupt/InterruptExample.java",
+    "code/src/callableFuture/CallableFuture.java",
+    "code/src/semaphore/SemaphoreExample.java"
   ],
   "video": ""
 }
