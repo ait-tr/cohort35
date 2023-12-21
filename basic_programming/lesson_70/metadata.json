@@ -5,7 +5,10 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/src/homework69/Restaurant.java"
+    "code/src/homework69/Restaurant.java",
+    "code/src/homework69/var2NotStaticCustomer/Restaurant.java",
+    "code/src/homework69/var2NotStaticCustomer/Customer.java"
+
   ],
   "video": ""
 }
