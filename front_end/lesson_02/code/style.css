@@ -1,0 +1,57 @@
+/* обращение ко всем элементам */
+
+* {
+  text-decoration: none;
+}
+
+a {
+  color: black;
+}
+
+/* псевдокласс hover отвечает за свойства, которые применяются при наведении мышки на элемент */
+
+a:hover {
+  color: rgb(225, 225, 225);
+  text-decoration: underline;
+}
+
+
+body {
+  background-color: rgb(253, 250, 247);
+}
+
+/* обращение к тегу */
+
+h1 {
+  /* размер шрифта */
+  font-size: 70px;
+  /* цвет */
+  color: blue;
+  /* внешний отступ */
+  margin: 5px;
+  /* перечеркивает текст */
+  text-decoration: line-through;
+  /* центрует текст посередине */
+  text-align: center;
+}
+
+/* обращение к классу */
+
+.green {
+  color: green;
+}
+
+.secondHeading {
+  color: red;
+  /* подчеркивание текста */
+  text-decoration: underline;
+}
+
+.containerLink {
+  width: 50%;
+  height: 100px;
+  /* один из способов как отцентровать блочный элемент на странице добавить авто отступы по краям */
+  margin: auto;
+  border: 1px solid aqua;
+  background-color: rgb(164, 87, 15);
+}

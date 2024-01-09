@@ -1,0 +1,19 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  margin: 30px;
+}
+
+.mainTextContainer {
+  border: 2px solid red;
+  border-radius: 5%;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+  border-radius: 50%;
+}
