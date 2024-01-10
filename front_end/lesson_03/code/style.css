@@ -1,0 +1,107 @@
+/* указываем свойства для всех элементов */
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+h1 {
+  /* если одна цифра, отступы для всех сторон */
+  margin: 0;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  position: sticky;
+  top: 0px;
+  /* ось z, глубина относительно общего потока элемента  */
+  z-index: 15;
+  /* цвет также можно указывать через отношение трех каналов red, green, blue и добавления четвертого альфа канала отвечающего за прозрачность opacity */
+  background-color: #deb887c2;
+  /* три цифры: первая для top, вторая для left/right, третья для bottom */
+  padding: 15px 30px 100px;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+.relative {
+  top: 30px;
+  right: -60px;
+  position: relative;
+  background-color: blue;
+  z-index: 10;
+}
+
+.absolute {
+  top: 169px;
+  left: 180px;
+  position: absolute;
+  background-color: green;
+  z-index: 4;
+}
+
+
+
+/* свойства для всех элементов h1 внутри элементов с классом .header */
+.header>h1 {
+  font-size: 60px;
+}
+
+
+.main {
+  /* минимальная высота, если элементов больше - контейнер увеличится */
+  min-height: 100vh;
+  /* две цифры: первая для top/bottom, вторая для left/right */
+  padding: 15px 30px;
+  position: relative;
+}
+
+.main > p > span {
+  color: darkred;
+  text-decoration: underline;
+  font-weight: bold;
+  /* font-size: 50px; */
+}
+
+.card {
+  width: 300px;
+  height: 500px;
+  /* margin: 15px 50px 30px; */
+  padding: 10px 15px;
+  margin-top: 15px;
+  background-color: cornflowerblue;
+  /* специальное свойство, которое сохраняет размеры контейнера при добавлении padding, border */
+  box-sizing: border-box;
+  /* значение бордера не плюсуется к размерам контейнера, а отсчитывается вовнутрь */
+  border: 10px dashed salmon;
+  position: relative;
+  /* display: none; убирает элемент из потока */
+  /* display: none; */
+  /* оставляет в потоке, но делает невидимым */
+  visibility: hidden;
+}
+
+
+
+.cardInfo {
+  width: 200px;
+  height: 50px;
+  background-color: rgba(251, 248, 153, .8);
+  position: absolute;
+  top: -16px;
+  right: -29px;
+  z-index: 2;
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: #a1a0a0;
+  /* четыре цифры: значения выставляются по часовой стрелки начиная с top/right/bottom/left */
+  padding: 5px 10px 50px 100px;
+}
