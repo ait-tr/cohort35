@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  width: 100%;
+}
+
+header {
+  /* как поставить картинку на фон контейнера */
+  width: 100%;
+  min-height: 120px;
+  /* устанавливаем адрес картинки локальный или из сети */
+  background-image: url('imagebanner.jpeg');
+  /* если cover - картинка обрезается и масштабируется, если contain - создаются дубликаты, заполняющие пустое пространство */
+  background-size: cover;
+  /* центруем картинку на фоне */
+  background-position: center;
+  /* прибиваем header к верху страницы */
+  position: sticky;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  /* будь у нижнего края контейнера по вертикали */
+  align-items: flex-end;
+  padding: 20px;
+}
+
+.navLogo {
+  height: 30px;
+}
+
+.navInput {
+  height: 20px;
+  opacity: 60%;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.play {
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* .navPlay {
+  transition: opacity 0.3s ease-in-out;
+} */
+
+nav {
+  /* margin: auto; */
+  width: 90%;
+  /* максимальная ширина */
+  max-width: 1000px;
+  display: flex;
+  /* значение по центру по вертикали */
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav>div {
+  display: flex;
+  align-items: flex-end;
+  /* изменяем значение курсора по умолчанию - pointer указывает пользователю, о том что элемент интерактивный */
+  cursor: pointer;
+}
+
+nav>div>img {
+  opacity: 60%;
+}
+
+nav>div>h3 {
+  color: white;
+  white-space: nowrap;
+  /* прозрачность, работает как альфа канал (значение a) в rgba() */
+  opacity: 60%;
+}
+
+.navPlay:hover .play,
+.navPlay:hover h3 {
+  opacity: 1;
+}
+
+.navInput:hover {
+  opacity: 1;
+}
