@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  display: inline;
+}
+
+h3 {
+  color: white;
+}
+
+header {
+  position: sticky;
+  top: 0px;
+  padding: 30px;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  background-color: rgb(175, 111, 26);
+  justify-content: space-evenly;
+}
+
+header > h3:last-child {
+  color: chartreuse;
+}
+
+header > h1:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+
+.gallery {
+  justify-content: center;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+
+.imgContainer {
+  padding: 15px;
+  width: 300px;
+  height: 200px;
+  /* обрезает то, что не попало под размер контейнера */
+  overflow: hidden;
+}
+
+
+.imgContainer>img {
+  width: 100%;
+  height: 100%;
+  /* contain не обрезая картинку, помещает ее в контейнер, оставляя свободное место */
+  /* cover обрезает картинку */
+  /* fill растягивает картинку */
+  object-fit: cover;
+}
+
+
+
+footer {
+  height: 100px;
+  background-color: darkred;
+}
+
+/* медиа запросами мы добавляем специфические css свойства при изменении пропорций видимой области в браузере */
+/* d  */
+
+/* в данном примере на экранах меньше по ширине, чем 1024px будут отображаться свойства, написанные ниже */
+@media screen and (max-width: 1024px) {
+  header {
+    background-color: rgb(165, 118, 42);
+  }
+}
+
+/* свойства для экранов меньше, чем 480px */
+@media screen and (max-width: 480px) {
+  header>h3 {
+    display: none;
+  }
+
+  header {
+    background-color: brown;
+  }
+}
