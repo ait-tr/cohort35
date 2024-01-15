@@ -5,8 +5,8 @@
   "code": [
     "./code/bootstrap/index.html",
     "./code/bootstrap/style.css",
-    "./code/homework/index.html",
-    "./code/homework/style.css"
+    "./code/home/index.html",
+    "./code/home/style.css"
   ],
   "video": "",
   "etc": ""
