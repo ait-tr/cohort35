@@ -1,0 +1,16 @@
+.myRow div {
+  border: 0.5px solid black;
+  background-color: rgb(247, 182, 126);
+}
+
+.container>form {
+  width: 400px;
+}
+
+.row > .violetBox {
+  background-color: violet;
+}
+
+.imgWrapper {
+  overflow: hidden;
+}
