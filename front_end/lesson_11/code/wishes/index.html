@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+    <title>Wishlist</title>
+  </head>
+
+  <body>
+    <h1>Wishlist 🦄</h1>
+    <!-- Тег описания, в данном случае формы (этикетка) -->
+    <label>Что я хочу:</label>
+    <!-- Тег формы, указываем id, чтобы работать с данными формы -->
+    <form id="form">
+      <input type="text" placeholder="What I want" required name="wish">
+      <input type="text" placeholder="Amount of it" required name="amount">
+      <!-- Поле ввода текста -->
+      <!-- type - тип данных, влияет на отображение и пользовательское взаимодействие -->
+      <!-- placeholder - текст на background у input -->
+      <!-- name - обязательный параметр, чтобы забрать данные из конкретного input -->
+      <button type="submit" class='btn'>Пожелать</button>
+    </form>
+    <div class="btnContainer">
+      <button id="btnDelLast">Убрать последний</button>
+      <button id="btnClearList">Очистить список</button>
+    </div>
+
+    <div id="wishList"></div>
+
+  </body>
+
+</html>
