@@ -3,8 +3,8 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "./code/interval.js",
-    "./code/timeout.js",
+    "./code/setInterval.js",
+    "./code/setTimeout.js",
     "./code/promise.js",
     "./code/test.js"
   ],
