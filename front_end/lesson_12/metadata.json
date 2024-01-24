@@ -2,12 +2,7 @@
   "plan": "plan.md",
   "theory": "theory.md",
   "homework": "homework.md",
-  "code": [
-    "./code/setInterval.js",
-    "./code/setTimeout.js",
-    "./code/promise.js",
-    "./code/test.js"
-  ],
+  "code": ["./code/setinterval.js", "./code/settimeout.js", "./code/promise.js", "./code/test.js"],
   "video": "",
   "etc": ""
 }
