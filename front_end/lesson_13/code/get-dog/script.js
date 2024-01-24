@@ -1,9 +1,16 @@
-const dogImage = document.getElementById("dog-image");
+console.log('dog!');
 
-fetch("https://dog.ceo/api/breeds/image/random")
-  .then(res => res.json())
-  .then(data => {
-    console.log(data);
-    const { message } = data;
-    dogImage.src = message;
-  });
+const img = document.getElementById("dog-image")
+
+fetch('https://dog.ceo/api/breeds/image/random')
+      .then(res => res.json())
+      .then(data => {
+        const {message} = data
+        img.src = message
+        img.style.width = "800px"
+      })
+
+
+
+
+

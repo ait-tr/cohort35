@@ -1,24 +1,22 @@
-// функция возвращающая promise
+// ? реализация на .then()
 
 function getUser() {
-  return new Promise(function (resolve, reject) {
-    setTimeout(() => {
-      resolve("Tom Hanks");
-    }, 2000);
-  });
+  return new Promise ((resolve, reject)=>{
+    setTimeout(()=> {
+      resolve('Tom Hanks')
+    }, 1000)
+  })
 }
 
-// ! синтаксис .then()
+// getUser().then(res =>{
+//   console.log('My name is '+ res);
+// })
 
-getUser().then(data => {
-  console.log(data);
-});
-
-// ? async / await синтаксис
+// ? async/await синтаксис
 
 async function getUserAsyncAwait() {
   const response = await getUser()
-  console.log(response);
+  console.log('My name is '+ response);
 }
 
 getUserAsyncAwait()
