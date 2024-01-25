@@ -2,15 +2,7 @@
   "plan": "plan.md",
   "theory": "theory.md",
   "homework": "homework.md",
-  "code": [
-    "./code/async-await/async-await.js",
-    "./code/fetch/fetch.js",
-    "./code/get-cat/index.html",
-    "./code/get-cat/index.js",
-    "./code/get-dog/index.html",
-    "./code/get-dog/script.js",
-    "./code/homework/homework.js"
-  ],
+  "code": ["./code/async-await/async-await.js", "./code/fetch/fetch.js", "./code/get-cat/index.html", "./code/get-cat/index.js", "./code/get-dog/index.html", "./code/get-dog/script.js", "./code/homework/homework.js"],
   "video": "",
   "etc": ""
 }

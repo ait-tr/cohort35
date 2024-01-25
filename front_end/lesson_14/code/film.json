@@ -1,0 +1,20 @@
+{
+  "title": "Star Wars: Episode IV – A New Hope",
+  "director": "George Lucas",
+  "year": 1977,
+  "poster": "https://m.media-amazon.com/images/I/815BNApx2gL._UF1000,1000_QL80_.jpg",
+  "cast": [
+    {
+      "name": "Mark Hamill",
+      "link": "https://en.wikipedia.org/wiki/Mark_Hamill"
+    },
+    {
+      "name": "Harrison Ford",
+      "link": "https://en.wikipedia.org/wiki/Harrison_Ford"
+    },
+    {
+      "name": "Carrie Fisher",
+      "link": "https://en.wikipedia.org/wiki/Carrie_Fisher"
+    }
+  ]
+}
