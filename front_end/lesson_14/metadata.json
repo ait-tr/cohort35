@@ -4,10 +4,10 @@
   "homework": "homework.md",
   "code": [
     "./code/homework/index.html",
-    "./code/homework/script.js",
+    "./code/homework/index.js",
     "./code/fakeApi/index.html",
     "./code/fakeApi/style.css",
-    "./code/fakeApi/script.js",
+    "./code/fakeApi/index.js",
     "./code/film.json",
     "./code/test.js"
   ],
