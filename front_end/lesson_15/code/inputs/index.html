@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Inputs</title>
+  </head>
+
+  <body>
+    <form id="contact-form">
+      <div>
+        <label>
+          Email:
+          <input type="email" placeholder="Введите ваш email..." required name="email">
+        </label>
+      </div>
+      <div>
+        <label>
+          Password:
+          <input type="password" placeholder="Введите ваш пароль..." required name="password">
+        </label>
+      </div>
+      <div>
+        <label>Ваш возраст: </label>
+      </div>
+
+      <!-- эти теги input связаны через name -->
+      <!--  пользователь выбирает из заданных значений -->
+
+      <div>
+        <input type="radio" name="age" value="0-18">
+        <label for="age">0-18</label>
+      </div>
+      <div>
+        <input type="radio" name="age" value="18-50">
+        <label for="age">18-50</label>
+      </div>
+      <div>
+        <input type="radio" name="age" value="50+">
+        <label for="age">50+</label>
+      </div>
+
+      <!-- также ограниченный выбор, но цвета через палитру -->
+
+      <div>
+        <label for="color">Выбрать цвет: </label>
+        <input type="color" name="color">
+      </div>
+
+      <!-- выбор даты -->
+
+      <div>
+        <label for="date">Выбрать дату: </label>
+        <input type="date" name="date">
+      </div>
+
+      <!-- выбор из предложенных числовых значений -->
+
+      <div>
+        <label for="color">Количество друзей: </label>
+        <input type="range" min="0" max="1000" name="range">
+      </div>
+
+      <!-- select -->
+      <div>
+        <label for="">Как лучше с вами связаться:</label>
+        <select name="" id="">
+          <option value="phone">Телефон</option>
+          <option value="email">Почта</option>
+          <option value="whatsapp">Whatsapp</option>
+          <option value="telegram">Telegram</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="color">Согласен на обработку данных: </label>
+        <input type="checkbox" name="range">
+      </div>
+      <div>
+        <button type="submit">Отправить</button>
+      </div>
+
+    </form>
+
+  </body>
+
+</html>
