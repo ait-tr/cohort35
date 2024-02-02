@@ -1,0 +1,6 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": ["./code/first-react/src/components/foxCard/FoxCard.tsx", "./code/first-react/src/components/foxCard/FoxCard.module.css", "./code/first-react/src/components/counter/Counter.tsx", "./code/first-react/src/components/counter/Counter.module.css", "./code/first-react/src/index.tsx"]
+}
