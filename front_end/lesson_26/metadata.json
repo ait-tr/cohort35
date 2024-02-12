@@ -3,6 +3,7 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
+    "./code/RTK/redux.md",
     "./code/RTK/src/App.tsx",
     "./code/RTK/src/features/products/productSlice.ts",
     "./code/RTK/src/features/products/productAction.ts",
