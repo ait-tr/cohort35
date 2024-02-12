@@ -1,0 +1,23 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "./code/first-react/src/index.tsx",
+    "./code/first-react/src/App.tsx",
+    "./code/first-react/src/layout/Layout.tsx",
+   "./code/first-react/src/layout/Layout.module.css",
+   "./code/first-react/src/components/product/Product.module.css",
+   "./code/first-react/src/components/product/Product.tsx",
+   "./code/first-react/src/components/productPage/ProductPage.module.css",
+   "./code/first-react/src/components/productPage/ProductPage.tsx",
+   "./code/first-react/src/components/productPage/types/Product.ts",
+   "./code/first-react/src/components/header/Header.tsx",
+   "./code/first-react/src/components/header/Header.module.css",
+   "./code/first-react/src/components/header/Footer.tsx",
+  "./code/first-react/src/components/footer/Footer.module.css",
+   "./code/first-react/src/components/error/Error.tsx",
+   "./code/first-react/src/App.css",
+     "./code/first-react/src/index.css"
+  ]
+}
