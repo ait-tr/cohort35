@@ -14,7 +14,6 @@
     "./code/RTK/src/features/products/productAction.ts",
     "./code/RTK/src/features/products/types/Product.ts",
     "./code/RTK/src/features/products/types/ProductState.ts",
-    "./code/RTK/src/features/products/Products.tsx",
     "./code/RTK/src/components/myButton/MyButton.module.css",
     "./code/RTK/src/components/myButton/MyButton.tsx",
     "./code/RTK/src/main.tsx",
