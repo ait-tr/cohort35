@@ -5,6 +5,9 @@
   "code": [
     "./code/RTK/redux.md",
     "./code/RTK/src/App.tsx",
+    "./code/RTK/src/hooks/useLS.ts",
+    "./code/RTK/src/features/products/productForm/ProductForm.tsx",
+    "./code/RTK/src/features/products/productForm/ProductForm.module.css",
     "./code/RTK/src/features/products/product/Product.module.css",
     "./code/RTK/src/features/products/product/Product.tsx",
     "./code/RTK/src/features/products/productPage/ProductPage.module.css",
