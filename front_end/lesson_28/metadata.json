@@ -1,0 +1,24 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "./code/RTK/redux.md",
+    "./code/RTK/src/App.tsx",
+    "./code/RTK/src/features/products/product/Product.module.css",
+    "./code/RTK/src/features/products/product/Product.tsx",
+    "./code/RTK/src/features/products/productPage/ProductPage.module.css",
+    "./code/RTK/src/features/products/productPage/ProductPage.tsx",
+    "./code/RTK/src/features/products/productPage/types/Product.ts",
+    "./code/RTK/src/features/products/productSlice.ts",
+    "./code/RTK/src/features/products/productAction.ts",
+    "./code/RTK/src/features/products/types/Product.ts",
+    "./code/RTK/src/features/products/types/ProductState.ts",
+    "./code/RTK/src/components/myButton/MyButton.module.css",
+    "./code/RTK/src/components/myButton/MyButton.tsx",
+    "./code/RTK/src/main.tsx",
+    "./code/RTK/package.json",
+    "./code/RTK/src/app/hooks.ts",
+    "./code/RTK/src/app/store.ts"
+  ]
+}
