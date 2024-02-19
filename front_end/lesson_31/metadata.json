@@ -4,8 +4,8 @@
   "homework": "homework.md",
   "code": [
     "./code/RTK/src/main.tsx",
-    "./code/RTK/src/components/swiper/Swiper.module.css",
-    "./code/RTK/src/components/swiper/Swiper.tsx",
+    "./code/RTK/src/components/swiper/MySwiper.module.css",
+    "./code/RTK/src/components/swiper/MySwiper.tsx",
     "./code/RTK/src/components/youtubeBox/YoutubeBox.module.css",
     "./code/RTK/src/components/youtubeBox/YoutubeBox.tsx",
     "./code/RTK/src/components/headerBurger/Example.module.css",
