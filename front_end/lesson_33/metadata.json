@@ -1,0 +1,13 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "./code/RTK/src/main.tsx",
+    "./code/RTK/src/components/composition/Composition.tsx",
+    "./code/RTK/src/components/optimisation/Optimisation.tsx",
+    "./code/RTK/src/components/ref/Ref.tsx",
+    "./code/RTK/src/components/square/Square.tsx",
+    "./code/RTK/src/components/square/Square.tsx"
+  ]
+}
