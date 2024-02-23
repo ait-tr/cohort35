@@ -26,13 +26,14 @@ const Shop: FC = () => {
       {user ? (
         <div className={styles.shopContainer}>
           {items.map(el => (
-            <ProductCard key={el.id} images={el.images} title={el.title} price={el.price} id={el.id}  />
+            <ProductCard images={el.images} title={el.title} price={el.price} id={el.id}  />
           ))}
         </div>
       ) : (
         <>
           <p>Вы не авторизированы!</p>
           <Link to='login'>Войдите в свой профиль</Link>
+
         </>
       )}
 
