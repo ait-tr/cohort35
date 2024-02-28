@@ -1,0 +1,12 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "queries/queries01.sql",
+    "queries/queries02.sql",
+    "queries/queries03.sql"
+  ],
+  "video": "",
+  "etc": ""
+}
