@@ -1,0 +1,13 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "db.animals.js",
+    "db.cocktail.js",
+    "db.posts.js",
+    "db.users.js"
+  ],
+  "video": "",
+  "etc": ""
+}
